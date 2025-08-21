@@ -1,0 +1,22 @@
+prefix: "&4&lMythic &5&lGalaxy &8>>&d "
+hearts: 3
+no-hunger: true
+lock-level-to-year: true
+allow-xp-pickup: false
+update-interval-minutes: 10
+
+gui:
+  title: "&dMythic Galaxy &8Settings"
+  items:
+    hearts:
+      material: HEART_OF_THE_SEA
+      slot: 12
+    hunger:
+      material: BREAD
+      slot: 13
+    yearlevel:
+      material: EXPERIENCE_BOTTLE
+      slot: 14
+    save:
+      material: EMERALD_BLOCK
+      slot: 22

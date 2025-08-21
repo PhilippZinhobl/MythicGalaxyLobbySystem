@@ -1,0 +1,18 @@
+name: MythicGalaxyLobbySystem
+version: '1.0-SNAPSHOT'
+main: com.polixer.mythicGalaxyLobbySystem.Main
+api-version: '1.21'
+authors: [ WeLovePaperAPI ]
+description: Der offizielle Polixer Client
+website: https://polixer.de
+commands:
+  mg:
+    description: Öffnet das Einstellungs-GUI oder Admin-Befehle
+    aliases: [mythicgalaxy]
+    permission: mythicgalaxy.use
+    usage: /mg [reload|prefix <text>]
+permissions:
+  mythicgalaxy.use:
+    default: true
+  mythicgalaxy.admin:
+    default: op
